@@ -1,0 +1,11 @@
+import sqlite3
+conn = sqlite3.connect('dostavka.db')
+sql = conn.cursor()
+sql.execute('CREATE TABLE products (name TEXT,photo_id TEXT,price REAL);')
+
+
+
+
+
+conn.cursor()
+conn.close()
